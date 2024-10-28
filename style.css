@@ -7,3 +7,13 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.header_text {
+    font-family: 'Monospace';
+    font-size: small;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
