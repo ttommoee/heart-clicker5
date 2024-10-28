@@ -6,7 +6,7 @@ body {
     height: 100vh; 
     margin: 0;
     background-color: #0b1522; 
-    position: relative;
+    position: absolute;
 }
 
 .top-left-text {
@@ -20,7 +20,7 @@ body {
 .counter {
     margin-bottom: 20px; 
     font-size: 20px;
-    position: absolute; 
+    position: relative; 
     bottom: 120px; 
     color: white;
  }
