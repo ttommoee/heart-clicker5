@@ -14,14 +14,16 @@ body {
     top: 20px;
     left: 20px;
     font-size: 24px;
-    color: #white;
+    color: white;
     z-index: 1;
+          font: bold;
 }
 
 .counter {
     margin-bottom: 20px; 
     font-size: 20px;
     position: relative; 
-    bottom: 120px; 
+    bottom: 180px; 
     color: white;
+          font: bold;
  }
