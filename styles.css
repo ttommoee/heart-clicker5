@@ -9,7 +9,7 @@ body {
             position: relative;
 }
 
-.top-left-text {
+.top_left_text {
     position: absolute;
     top: 20px;
     left: 20px;
