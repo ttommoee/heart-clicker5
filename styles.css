@@ -16,3 +16,11 @@ body {
     font-size: 24px;
     color: #white; 
 }
+
+.counter {
+    margin-bottom: 20px; 
+    font-size: 20px;
+    position: absolute; 
+    bottom: 120px; 
+    color: white;
+ }
