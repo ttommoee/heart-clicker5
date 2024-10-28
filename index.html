@@ -55,14 +55,19 @@
     <div class="top_left_text">text</div>
 
     <script>
-        let count = 0; // Initialize the counter
+        let count = 0; // initialize the counter
 
         const button = document.getElementById('heartButton');
         const displayCount = document.getElementById('clickCount');
 
         button.addEventListener('click', () => {
-            count++; // Increment the counter
-            displayCount.textContent = `Нажатий: ${count}`; // Update the displayed count
+            count++; // increment the counter
+            displayCount.textContent = `Нажатий: ${count}`; // update the displayed count
+
+            button.style.transform = 'scale(1.1) rotate(-45deg)';
+            setTimeout(() => {
+                button.style.transform = 'rotate(-45deg)';
+            }, 150);
         });
     </script>
 
