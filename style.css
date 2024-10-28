@@ -8,3 +8,7 @@ body {
     align-items: center;
 }
 
+.counter {
+    color: white;
+    font: bold;
+}
