@@ -11,4 +11,6 @@ body {
 .counter {
     color: white;
     font: bold;
+    position: absolute;
+    bottom: 120px;
 }
